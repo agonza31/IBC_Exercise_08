@@ -1,4 +1,3 @@
-library(ggplot2)
 data<-read.table("UWvMSU_1-22-13.txt",header=TRUE,sep='\t')
 
 cumulScores<-data.frame(Time=double(),UWscore=integer(),MSUscore=integer())
